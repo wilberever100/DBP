@@ -1,6 +1,0 @@
-*.depend
-bin
-obj/
-*.exe
-*.o
-*.layout

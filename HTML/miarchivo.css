@@ -1,0 +1,17 @@
+#nombre{
+	background-color: black;
+	color: #CACACA;
+	font-size: 30pt;
+	text-align: left;
+}
+#caracteristicas{
+	font-weight: 900;
+	color: black;
+	font-size:10pt;
+}
+table#t1{
+	width:100%;
+	background-color: white;
+	
+	border-collapse: collapse;
+}
