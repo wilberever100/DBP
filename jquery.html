@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title> Cómo usar jQuery </title>
+	<!-- La siguiente línea coloca el texto en UTF-8-->
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<!-- aquií podriamos usar el jQuery que descargamos-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		alert("Ese alert fue lanzado al inicio de todo el proceso");
+		<!-- codigo Javascript-->
+		$(document).ready(function(){
+			$(".miclase").css({
+				"color": "yellow",
+				"font-size": "32pt",
+				"font-family": "Comic Sans",
+				"border": "2px solid red"
+			});
+			$(".miclase").css("background-color","blue");
+			
+		});
+	</script>
+</head>
+<body>
+		<div class="miclase">Cómo usar jQuery</div>
+</body>
