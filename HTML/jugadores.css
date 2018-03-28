@@ -1,0 +1,39 @@
+#cabecera {
+  color: white;
+  text-align:center;
+  margin: 1em auto; 
+  max-width: 600px;
+}
+
+#cabecera h1 {
+	font-size: 20pt;
+}
+
+#cabecera h2 {
+	font-size: 30pt;
+	font-style: italic;
+	color: white;
+}
+
+#cabecera img {
+	height: 300px;
+}
+
+.clear {
+	clear: left;
+	clear: right;
+}
+
+.titulo {
+	text-align: center;
+	color: white;
+	font-size: 15pt;
+}
+
+.variable {
+	display: none;	
+}
+
+#jugadores img{
+	width: 50%;
+}
