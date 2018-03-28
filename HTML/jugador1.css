@@ -1,0 +1,16 @@
+body {
+	font-family: cursive;
+	background: url(rojo.png)left top repeat-y,
+	url(rojo2.png)right top repeat-y;
+	font-size: 15pt;
+	color: #BDC2C4;
+}
+
+
+.bloque {
+  background-image: url("futbol.jpg");
+  border-radius: 10px;
+  box-shadow: 15px 10px #FFFFFF;	
+  margin: 30px 50px;
+  padding: 10px;
+}

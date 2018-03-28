@@ -1,13 +1,57 @@
-#nombre{
-	background-color: black;
-	color: #CACACA;
-	font-size: 30pt;
-	text-align: left;
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
-#caracteristicas{
-	font-weight: 900;
-	color: black;
-	font-size:10pt;
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+#cabecera {
+  color: white;
+  text-align:center;
+  margin: 1em auto; 
+  max-width: 600px;
+}
+
+#cabecera h1 {
+	font-size: 20pt;
+}
+
+#cabecera h2 {
+	font-size: 30pt;
+	font-style: italic;
+	color: white;
+}
+
+#cabecera img {
+	height: 300px;
+}
+
+.clear {
+	clear: left;
+	clear: right;
+}
+
+.titulo {
+	text-align: center;
+	color: white;
+	font-size: 15pt;
+}
+
+.variable {
+	display: none;	
+}
+
+#superamigos img{
+	width: 50%;
 }
 table#t1{
 	width:100%;
