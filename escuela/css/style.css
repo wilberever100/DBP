@@ -1,0 +1,37 @@
+#menu {
+  float:left;
+}
+
+#main {
+  float:left;
+  margin: 20px;
+}
+
+body {
+	font-family: 'Arial';
+}
+
+.fakeButton {
+  background-color:#CACACA;
+  border: 2px solid #DADADA;
+  padding: 20px;
+  border-radius: 10px;
+}
+.fakeButton:hover{
+	background-color:#DADADA;
+}
+
+.fakeButton a {
+	color: #B92020;
+}
+
+.clear {
+  clear: left;
+}
+
+.formulario {
+	background-color: #FAFAFA;
+	color:#24ACAC;
+	margin: 20px;
+	padding: 20px;
+}
