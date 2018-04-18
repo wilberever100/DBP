@@ -5,7 +5,7 @@
 		public function printBody() {
 			$text = "<div class='formulario'>";
 			$text .= "<h2>Consulta de curso</h2>";
-			$text .= "<form action='consulta.php' method='POST'>";
+			$text .= "<form action='consulta.php' method='GET'>";
 			$text .= "T&iacute;tulo <input type='text' name='titulo'> <br>";
 			$text .= "A&ntilde;o <select name='anho''>";
 			$text .= "<option></option>";
@@ -16,8 +16,8 @@
 			$text .= "</form>";
 			$text .= "</div>";
 			
-			$tmpTitulo = $_POST["titulo"];
-			$tmpAnho = $_POST["anho"];
+			$tmpTitulo = $_GET["titulo"];
+			$tmpAnho = $_GET["anho"];
 			$text .= "<div class='resultado'>";
 			$busquedaRetornoValor = false;
 			if( isset($tmpTitulo) && $tmpTitulo != "") {

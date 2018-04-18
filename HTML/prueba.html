@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$.ajax({
+		data:{
+			variable:"ALUMNO"
+	},
+		url:"servidor.php",
+		success:function(response){
+			$('#miventana').html(response);
+		}
+	});
+})
+</script>
+</head>
+<body>
+	<div id="miventana">Este div debe cambiar al inicio de la pagina</div>
+</body>
+</html>
